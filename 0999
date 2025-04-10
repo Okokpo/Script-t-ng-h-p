@@ -1,0 +1,102 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Bacon",
+         Animation = "YT: Bacon"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=128933802535491",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Auto win"})
+     local Tab2o = MakeTab({Name = "NPC"})
+     local Tab3o = MakeTab({Name = "Dabong"})
+     
+     
+-------TOGGLE 
+
+     Toggle = AddToggle(Tab1o, {
+      Name = "BẬt",
+      Default = Correct,
+      Callback = function()
+     end
+    })
+    
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "1",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/FernHub/refs/heads/main/DeadRailsFarm", true))()
+  end
+  })
+     AddButton(Tab1o, {
+     Name = "2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "3",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/r4mpage4/LuaCom/refs/heads/main/usehaxware.lua"))()
+  end
+  })   
+   AddButton(Tab1o, {
+     Name = "4",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Npc",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/Okokpo/Ip/refs/heads/main/Tyggg'))()
+  end
+  })   
+AddButton(Tab1o, {
+     Name = "5",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+  end
+  }) 
+AddButton(Tab3o, {
+     Name = "ᶜᵘ̛ᵒ̛́ᵖ ᵇᵒ́ⁿᵍ ʰᵒ̣̂ ᵇᵒ̂́ ",
+    Callback = function()
+	  loadstring(game:HttpGet(("https://pastefy.app/3uhSGW6r/raw")))()
+  end
+  })   
+AddButton(Tab3o, {
+     Name = "điều khiển ",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Okokpo/Oooooo/refs/heads/main/Opppp"))()
+  end
+  })   
+AddButton(Tab3o, {
+     Name = "cướp bóng",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/HitboxExpander"))()
+  end
+  })   
